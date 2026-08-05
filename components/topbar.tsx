@@ -1,0 +1,1 @@
+export function Topbar(){return <header className="topbar"><div><div className="eyebrow">Producer Control Room</div><strong>AM Wake Up Show</strong></div><div style={{display:'flex',gap:10,alignItems:'center'}}><span className="badge red">LIVE IN 18 MIN</span><span className="badge">Kiotti</span></div></header>}

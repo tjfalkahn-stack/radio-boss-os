@@ -1,0 +1,3 @@
+import { Card, Page } from '@/components/ui';
+const hits=['Major artist announces a new album rollout.','Popular series confirms another season.','Celebrity couple responds to breakup rumors.','Houston artist previews a new single.','Streaming platform lands a major documentary.','Award-show performance sparks debate.'];
+export default function Entertainment(){return <Page eyebrow="On-Air Ready" title="Entertainment Quick Hits" subtitle="Short, punchy celebrity and music updates with host buttons."><Card><div className="list">{hits.map((h,i)=><div className="list-item" key={h}><strong>{h}</strong><p className="muted">Host button: {i%2?'Smart move or bad timing?':'Are we here for this?'}</p></div>)}</div></Card></Page>}
