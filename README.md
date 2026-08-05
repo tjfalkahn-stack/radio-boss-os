@@ -41,3 +41,13 @@ Open `http://localhost:3000`.
 ## Environment
 
 Copy `.env.example` to `.env.local` and add keys as integrations are enabled.
+
+## August 4 UI upgrade
+
+- Fixed desktop horizontal overflow
+- Added independently scrollable sidebar
+- Added active route states for desktop and mobile navigation
+- Improved tablet/mobile card breakpoints
+- Added saved local interaction states and toast confirmation
+- Added interactive rundown reordering and status cycling
+- Added functional manual recording picker and clip approval controls
